@@ -18,7 +18,7 @@ $errorMessage = $errorMessage ?? '';
         <h1>Database Error</h1>
         <p>There was an error connecting to the database.</p>
         <p>The database must be installed as described in the appendix.</p>
-        <p>MySQL must be running as described in chapter 1.</p>
+        <p>MySQL must be running.</p>
         <p>Error message: <?php echo $errorMessage; ?></p>
     </div>
 </div>
